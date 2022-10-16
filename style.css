@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 600px;
+    margin: auto;
+
+}
+
+body {
+    /* background-color: rgb(172, 167, 167); */
+    background-image: url('background3.jpg');
+}
+#title {
+    margin-top: 70px;
+    border-radius: 5px;
+    border: solid 1px rgb(85, 3, 105);
+    font-family: sans-serif;
+    font-size: 50px;
+    /* background-color: rgb(144, 189, 235); */
+    color: rgb(237, 236, 245);
+    text-align: center;
+    background-color: rgb(155, 105, 189);
+}
+
+#IDDiv {
+    text-align: center;
+    margin-top: 20px;
+    height: 100px;
+}
+
+#IDPixel {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 180px;
+    margin-top: 50px; 
+}
+
+#teste {
+    text-align: center;
+}
+
+#color-palette { 
+    /* para mexer nos meus 4 quadradinhos de cor*/
+    margin-top: 40px;
+}
+
+ul {
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* display: block; */
+    margin-right: auto;
+    margin-left: auto;
+/* grid-row: 20px;
+    grid-column: 50px; */
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    /* margin-right: 5px; */
+    /* grid-row: 20px;
+    grid-column: 50px; */
+}
+
+.color {
+    border: solid 1px black ;
+    width: 40px;
+    height: 40px;
+    margin-top: 10x;
+    }
+
+#button-random-color, #clear-board{
+    width: 150px;
+    height: 80px;
+    background-color: rgb(144, 189, 235);
+    margin-bottom: 100px;
+    }
+
+#pixelSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#pixel-board {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    flex-direction:column ;
+    background-color: white;
+    }
+    
+.pixel {
+    border: solid 1px black;
+    background-color: white;
+    /* width: 40px;
+    height: 40px; */
+ }
+ .input {
+    text-align: center;
+
+ }
+
+ 
